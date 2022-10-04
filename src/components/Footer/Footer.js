@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>© 2020 copyright all right reserved</Slogan>
+          <Slogan>© 2022 Gourav Sahu. all right reserved</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/gourav017" target="_blank">

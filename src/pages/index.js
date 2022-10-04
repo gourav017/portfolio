@@ -6,7 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-
+import GitHubCalendar from 'react-github-calendar';
 const Home = () => {
   return (
     <Layout>
@@ -16,6 +16,7 @@ const Home = () => {
       </Section>
       <Timeline/>
       <Technologies />
+      <GitHubCalendar style={{margin:"auto"}} username="gourav017" />
       <Projects />
       <Acomplishments />
     </Layout>
